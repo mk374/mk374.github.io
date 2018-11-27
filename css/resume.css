@@ -1,0 +1,391 @@
+/*!
+ * Start Bootstrap - Resume v5.0.2 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 1.5rem;
+  color: black;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #0d3442;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #BD5D38;
+}
+/*background photo of Duke*/
+
+
+.bigslide {
+    background-image: url('https://d3m7xw68ay40x8.cloudfront.net/assets/2016/12/02110102/history-duke-chapel-feat.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.img{
+  background: rgba(76, 175, 80, 0.3)
+}
+
+.css-typing p {
+ border-right: .15em solid orange;
+ font-family: "Courier";
+ font-size: 30px;
+ color: blue;
+ white-space: nowrap;
+ overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+  width: 7.3em;
+ -webkit-animation: type1 2s steps(40, end);
+ animation: type1 2s steps(40, end);
+ -webkit-animation-delay: 2.5s;
+ animation-delay: 2.5s;
+ -webkit-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(2) {
+ width: 11.5em;
+ opacity: 0;
+ -webkit-animation: type2 2s steps(40, end);
+ animation: type2 2s steps(40, end);
+ -webkit-animation-delay: 2.5s;
+ animation-delay: 2.5s;
+ -webkit-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+  width: 7.3em;
+ opacity: 0;
+ -webkit-animation: type3 2s steps(40, end);
+ animation: type3 2s steps(40, end);
+ -webkit-animation-delay: 5s;
+ animation-delay: 5s;
+ -webkit-animation-fill-mode: forwards;
+ animation-fill-mode: forwards;
+}
+
+@keyframes type1 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+ }
+
+@-webkit-keyframes type1 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+ }
+
+@keyframes type2 {
+ 0% {
+   width: 0;
+ }
+ 1% {
+   opacity: 1;
+ }
+ 99.9% {
+   border-right: .15em solid orange;
+ }
+ 100% {
+   opacity: 1;
+   border: none;
+ }
+}
+
+@-webkit-keyframes type2 {
+ 0% {
+   width: 0;
+ }
+ 1% {
+   opacity: 1;
+ }
+ 99.9% {
+   border-right: .15em solid orange;
+ }
+ 100% {
+   opacity: 1;
+   border: none;
+ }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+ }
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid orange;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+ }
+
+@keyframes blink {
+ 50% {
+   border-color: transparent;
+ }
+}
+@-webkit-keyframes blink {
+ 50% {
+   border-color: tranparent;
+ }
+}
+
+
+
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: #BD5D38;
+
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: #d48a6e;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 1000;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+  #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 12rem;
+    max-height: 12rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: #777262 !important;
+}
+
+.text-primary {
+  color: #800000!important;
+}
+
+.text-header {
+  color: white;
+  font-size: 40rem;
+}
+
+.text-small{
+  font-size: 3rem;
+}
+
+
+.stroke {
+  -webkit-text-stroke: 2px black;
+
+}
+
+.stroke_red{
+  -webkit-text-stroke: 10px;
+  color: #800000;
+
+}
+
+
+.text-tertiary{
+  color: #00009c !important;
+  font-weight:bold;
+}
+
+.text-huge{
+  font-size: 3rem !important;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+a {
+  color: #BD5D38;
+}
+
+a:hover, a:focus, a:active {
+  color: #824027;
+}
